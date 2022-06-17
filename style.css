@@ -1,0 +1,140 @@
+p {
+  font-family: 'Outfit', sans-serif;
+}
+
+body {
+  background-image: url(images/pattern-background-desktop.svg);
+  background-repeat: no-repeat;
+  background-color: hsl(225, 100%, 94%);
+}
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 95vh;
+}
+.card {
+  width: 400px;
+  height: 85vh;
+  background-color: white;
+  border-radius: 20px;
+}
+
+.card img {
+  width: 400px;
+  border-radius: 20px 20px 0 0;
+}
+
+h1 {
+  margin-top: 45px;
+  text-align: center;
+  font-family: 'Outfit', sans-serif;
+  font-weight: bold;
+}
+
+.card p {
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+
+.plan {
+  display: flex;
+  align-items: center;
+  margin: 20px auto;
+  width: 300px;
+  height: 90px;
+  background-color: #F8F9FE;
+  border-radius: 10px;
+}
+
+.plan img {
+  margin-left: 20px;
+  width: 50px;
+  height: 50px;
+}
+
+.button {
+  cursor: pointer;
+  margin: auto;
+  width: 300px;
+  height: 50px;
+  background-color: hsl(245, 75%, 52%);
+  border-radius: 10px;
+  box-shadow: 1px 1px 15px 9px rgba(56, 42, 225, 39%);
+}
+
+.button:hover {
+  background-color: hsl(245,83%,68%);
+}
+
+.button p {
+  padding-top: 14px;
+  font-weight: 700;
+  color: hsl(225, 100%, 94%)
+  ;
+}
+
+.link {
+  margin-top: 20px;
+  text-align: center;
+}
+.link a {
+  font-size: 16px;
+  color: inherit;
+  text-decoration: inherit;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 700;
+  color: hsl(224, 23%, 55%);
+}
+
+.link a:hover {
+  color: hsl(223, 47%, 23%);
+}
+
+ul {
+  list-style: none;
+  margin-left: 0px;
+  padding-left: 20px;
+  font-family: 'Outfit', sans-serif;
+}
+
+ul li {
+  color: hsl(224, 23%, 55%);
+}
+
+.selectPlan {
+  font-weight: 900;
+  color: hsl(223, 47%, 23%);
+  padding-bottom: 5px;
+}
+
+.change a{
+  margin: 50px;
+  font-size: 16px;
+  font-family: 'Outfit', sans-serif;
+  font-weight: 700;
+  color: hsl(245, 75%, 52%);
+
+}
+
+.change a:hover {
+  text-decoration: inherit;
+  color: hsl(245,83%,68%);
+}
+
+.attribution{
+  text-align: center;
+  margin-top: -10px;
+  font-family: 'Outfit', sans-serif;
+  font-size: 16px;
+}
+
+.attribution a {
+  color: inherit;
+  text-decoration: inherit;
+  color: hsl(245, 75%, 52%);
+  font-weight: bold;
+}
+
